@@ -1,0 +1,18 @@
+//mysql
+1.sudo apt install mysql-server
+ติดตั้ง mysql-server
+
+2.sudo mysql
+เข้าโหมด mysql 
+
+3.ALTER USER 'root'@'locahost' IDENTIFIED BY 'password ของคุณ เช่น 123456789'; 
+สร้างuser
+
+4.fiush privileges;
+5.exit;
+ให้สิทธิและออก
+
+
+// อนุญาต ให้ user นั้นสร้าง databases ได้ เช่น root1
+-sudo mysql 
+-GRANT ALL PRIVILEGES ON *.* TO 'root1'@'localhost';
